@@ -28,7 +28,7 @@ luxurious_lamp_price = 52.15
 #Step 7: In order to be a business, we should also be calculating sales tax. Let’s store that in a variable as well.Define the variable sales_tax and set it equal to .088. That’s 8.8%.
 sales_tax = 0.088
 
-###Adding In The Catalog
+###Our First Customer
 
 #Step 8: Our first customer is making their purchase! Let’s keep a running tally of their expenses by defining a variable called customer_one_total. Since they haven’t purchased anything yet, let’s set that variable equal to 0 for now.
 customer_one_total = 0
