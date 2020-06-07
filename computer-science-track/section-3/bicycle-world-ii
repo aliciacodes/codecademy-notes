@@ -1,0 +1,83 @@
+Welcome to Bicycle World, the premier text-based bicycle shop! This shop is only accessible to programmers like you, who are familiar with the command line.
+
+In this project, you’ll use the commands you learned to navigate and edit the filesystem of this special shop.
+
+The starting filesystem is shown below. (Bicycle World recently changed owners, who named the main directory bicycle-world-ii.)
+
+bicycle-world-ii
+|—— brands.txt
+|—— freight/
+|   |—— messenger/
+|   |—— porteur/
+|—— mountain/
+|   |—— downhill/
+|   |   |—— heavyweight/
+|   |   |—— lightweight/
+|   |—— hardtail/
+|—— racing/
+    |—— road/
+    |—— track/
+
+#Step 1: 
+Print the working directory.
+
+If you ever get lost, you can return to this directory using cd.
+
+$ pwd
+
+#Step 2: List the files and directories in the working directory.
+
+$ ls
+
+#Step 3: Change directories to the freight/ directory.
+
+$ cd freight/
+
+#Step 4: List the files and directories in the working directory.
+
+$ ls
+
+#Step 5: Change directories to the porteur/ directory.
+
+$ cd porteur/
+
+#Step 6: 
+Change directories up two levels to the bicycle-world-ii/ directory.
+
+List the files and directories in the bicycle-world-ii/ directory.
+
+$ cd ../..
+$ ls
+
+#Step 7: Change directories to the mountain/downhill/ directory.
+
+$ cd mountain/downhill/
+
+#Step 8: Make a file called dirt.txt.
+
+$ touch dirt.txt
+
+#Step 9: Make a file called mud.txt.
+$ touch mud.txt
+
+#Step 10: List the files and directories in the downhill/ directory.
+$ ls
+
+#Step 11: Downhill biking is dangerous: In the downhill/ directory, make a directory called safety/.
+$ mkdir safety
+
+#Step 12: Change directories to the bicycle-world-ii/ directory.
+$cd ../..
+
+#Step 13: List the contents of the bicycle-world-ii/ directory.
+$ ls
+
+#Step 14: The shop is adding a new type of bike!
+In bicycle-world-ii/, make a directory called bmx/.
+$ mkdir bmx/
+
+#Step 15: Without changing directories from bicycle-world-ii/, make a file in the bmx/ directory called tricks.txt.
+$ touch bmx/tricks.txt
+
+#Step 16: List all files and directories in the current directory.
+$ ls
