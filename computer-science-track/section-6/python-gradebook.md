@@ -1,4 +1,4 @@
-# ython Gradebook
+# Python Gradebook
 
 **Create Some Lists:**
 
