@@ -49,7 +49,7 @@ You have been provided with three lists:
    print("Average Haircut Price: " + str(average_price))
    ```
 
-   
+    and 
 
 5. That average price is more expensive than Carly thought it would be! She wants to cut all prices by 5 dollars.
 
@@ -103,7 +103,7 @@ You have been provided with three lists:
     ```
 
     ```
-    print(total_revenue)
+    print("Total Revenue: " + str(total_revenue))
     ```
 
     
@@ -124,7 +124,7 @@ You have been provided with three lists:
     You can use `range()` in your list comprehension to make `i` go from `0` to `len(new_prices) - 1`.
 
     ```
-    cuts_under_30= [hairstyle for hairstyle in (len(new_prices) - 1) if price[i] < 30]
+    cuts_under_30= [hairstyle for hairstyle in (len(new_prices) - 1) if new_price[i] < 30]
     ```
 
     
